@@ -1,0 +1,87 @@
+body button{
+    padding: 100px;
+    background-color: red;
+    display: flex;
+}
+body button img{
+    
+    height: 50px;
+    width: 50px;
+}
+
+
+h1{ 
+    font-size: 900%;
+    text-align: center;
+    span{
+        color: red;
+    }
+}
+
+
+h2{
+    direction: rtl;
+    font-size: 600%;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+}
+
+h3{
+    direction: rtl;
+    font-size: 600%;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+}
+
+header{
+    background-color: green;
+}
+
+header nav ul{
+
+    font-size: 200px;
+    direction: rtl;
+    display: flex; /* ترتيب العناصر أفقياً */
+    list-style-type: none; /* إزالة النقاط من القائمة */ 
+}
+
+
+main{ 
+    background-color: gainsboro;
+}
+
+
+#CoverIamge{
+    display: block;
+    margin: auto;
+    width: 50%;   
+}
+
+p{
+    direction: rtl;
+    font-size: 400%;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+}
+
+.list {
+    direction: rtl;
+    list-style-type: none; /* إزالة النقاط من القائمة */
+    display: flex; /* ترتيب العناصر أفقياً */
+  }
+  
+  .list li {
+    background-color: white;
+    margin-right: 120px; /* مسافة بين العناصر */
+    border-radius: 5px;
+  }
+  
+  .list p {
+    text-align: center;
+  }
+
+  .list h3 {
+    text-align: center;
+  }
+
+
+footer{
+    background-color: green;
+}
